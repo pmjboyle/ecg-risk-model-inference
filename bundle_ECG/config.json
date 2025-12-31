@@ -1,0 +1,10 @@
+{
+  "MIN_RANGE": 0,
+  "MAX_RANGE": 1100,
+  "C_PARAM": 0.2,
+  "random_state_split": 42,
+  "test_size": 0.2,
+  "penalty": "l1",
+  "solver": "liblinear",
+  "max_iter": 400
+}
