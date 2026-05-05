@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "ECG Risk Model Inference"
+version: "1.0.0"
+date-released: 2026-05-04
+type: software
+
+authors:
+  - family-names: "Sharma"
+    given-names: "Surbhi"
+  - family-names: "Boyle"
+    given-names: "Patrick M."
+    orcid: "https://orcid.org/0000-0001-9048-1239"
+
+repository-code: "https://github.com/pmjboyle/ecg-risk-model-inference"
+url: "https://github.com/pmjboyle/ecg-risk-model-inference"
+
+abstract: "Software for running inference with an electrocardiogram-based risk prediction model."
+
+license: "MIT"
