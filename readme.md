@@ -3,7 +3,6 @@
 This repository allows users to run **inference and evaluation** using a **pre-trained logistic regression model**.
 Users only provide model-ready features.
 
-
 ## What is included
 
 - `lasso_logreg_bundle.joblib`  
@@ -40,7 +39,12 @@ All outputs are written to the specified output directory.Creates two files:
 1. Predictions (always created) and contains: y_prob, saomple_id (if provided), y_true (if provided)
 2. Metrics (only if y_true exists) and includes AUROC, AUPRC, Sensitivity, Specificity, Precision, NPV, F1-score (all at preset threshold)
 
-
-Summary
+## Summary
 
 If you provide the same feature columns the model was trained on, this script will handle scaling, prediction, and evaluation automatically.
+
+## Citation
+
+If you use this software in academic work, please cite the archived release listed in `CITATION.cff`.
+
+Please also consider citing the related paper, "Artificial Intelligence-Enhanced Electrocardiography and Health Records to Predict Cardiac Arrest" by Sharma et al. (2026) JACC Advances, doi: [10.1016/j.jacadv.2026.102787](https://doi.org/10.1016/j.jacadv.2026.102787).
