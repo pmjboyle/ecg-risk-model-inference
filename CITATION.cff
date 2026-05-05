@@ -4,10 +4,12 @@ title: "ECG Risk Model Inference"
 version: "1.0.0"
 date-released: 2026-05-04
 type: software
+doi: 10.5281/zenodo.20033780
 
 authors:
   - family-names: "Sharma"
     given-names: "Surbhi"
+    orcid: "https://orcid.org/0000-0003-4586-9183"
   - family-names: "Boyle"
     given-names: "Patrick M."
     orcid: "https://orcid.org/0000-0001-9048-1239"
